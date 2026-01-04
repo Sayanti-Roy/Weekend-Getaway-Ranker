@@ -93,10 +93,7 @@ Enter your source city (or type 'exit' to quit): exit
 
 
 
-📂 Project Structure
-Plaintext
-
-📁 Project Structure (Plaintext)
+📁 Project Structure
 ```text
 task-4-travel-ranker/
 │
@@ -125,6 +122,7 @@ If you haven't created the `requirements.txt` file for this folder yet, create i
 pandas
 
 geopy
+
 
 
 
