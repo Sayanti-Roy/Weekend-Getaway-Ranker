@@ -96,12 +96,26 @@ Enter your source city (or type 'exit' to quit): exit
 📂 Project Structure
 Plaintext
 
+📁 Project Structure (Plaintext)
+
 task-4-travel-ranker/
 │
-├── weekend_ranker.py          # Main algorithm script
-├── Top Indian Places to Visit.csv # Dataset (Source Data)
-├── requirements.txt           # Python dependencies
-└── README.md                  # Documentation
+├── weekend_ranker.py
+│   └── Main Python script containing the recommendation algorithm
+│       for ranking weekend getaway destinations based on distance,
+│       rating, and popularity.
+│
+├── Top Indian Places to Visit.csv
+│   └── Source dataset containing Indian tourist destinations,
+│       location details, and Google review ratings.
+│
+├── requirements.txt
+│   └── List of Python dependencies required to run the project.
+│
+└── README.md
+    └── Project documentation submitted as part of the
+        Internship Technical Assessment 2025.
+
 Submitted as part of the Internship Technical Assessment 2025.
 
 
@@ -111,4 +125,5 @@ If you haven't created the `requirements.txt` file for this folder yet, create i
 pandas
 
 geopy
+
 
