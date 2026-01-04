@@ -97,7 +97,7 @@ Enter your source city (or type 'exit' to quit): exit
 Plaintext
 
 📁 Project Structure (Plaintext)
-
+```text
 task-4-travel-ranker/
 │
 ├── weekend_ranker.py
@@ -115,7 +115,7 @@ task-4-travel-ranker/
 └── README.md
     └── Project documentation submitted as part of the
         Internship Technical Assessment 2025.
-
+```
 Submitted as part of the Internship Technical Assessment 2025.
 
 
@@ -125,5 +125,6 @@ If you haven't created the `requirements.txt` file for this folder yet, create i
 pandas
 
 geopy
+
 
 
