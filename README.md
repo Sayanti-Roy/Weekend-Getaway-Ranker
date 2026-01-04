@@ -37,26 +37,55 @@ python weekend_ranker.py
 🧪 Usage Example
 When you run the script, you will be prompted to enter your current city.
 
-Input:
+📊 SAMPLE CONSOLE OUTPUTS
 
-Plaintext
+🔎 --- Weekend Getaway Recommender ---
+Enter your source city (or type 'exit' to quit): Kolkata
 
-Enter Source City: Delhi
-Output:
+🚗 Finding top weekend getaways from Kolkata...
+📍 Processing recommendations for: Kolkata (22.5726, 88.3639)...
 
-Plaintext
+      City                    Type   Distance_km  Google review rating  Score
+--------------------------------------------------------------------------------
+Deoghar                 Temple          272.5                   4.7     0.76
+Hooghly                 Temple           52.0                   4.6     0.74
+Sundarbans National Park Wildlife          68.7                   4.4     0.71
+Bolpur                  Temple          139.0                   4.7     0.67
+Digha                   Beach           137.5                   4.5     0.67
 
-✅ Top 5 Weekend Getaways from Delhi:
 
-1. 🏆 Rishikesh
-   - Rating: 4.8/5.0
-   - Distance: 240 km
-   - Score: 9.2/10
+🔎 --- Weekend Getaway Recommender ---
+Enter your source city (or type 'exit' to quit): Delhi
 
-2. 🥈 Jaipur
-   - Rating: 4.6/5.0
-   - Distance: 280 km
-   - Score: 8.9/10
+🚗 Finding top weekend getaways from Delhi...
+📍 Processing recommendations for: Delhi (28.6139, 77.2090)...
+
+         City                Type                Distance_km  Google review rating  Score
+------------------------------------------------------------------------------------------------
+Greater Noida   Mall, Race Track                     34.0                   4.4     0.92
+Gurugram        Entertainment, Mall                  24.1                   4.6     0.85
+Agra            Mausoleum, Fort                     178.1                   4.6     0.76
+Vrindavan       Temple                              124.9                   4.8     0.74
+Meerut          Temple                               69.5                   4.8     0.73
+
+
+🔎 --- Weekend Getaway Recommender ---
+Enter your source city (or type 'exit' to quit): Varanasi
+
+🚗 Finding top weekend getaways from Varanasi...
+📍 Processing recommendations for: Varanasi (25.3356491, 83.0076292)...
+
+      City           Type                Distance_km  Google review rating  Score
+-----------------------------------------------------------------------------------
+Patna            Zoo, Gurudwara           214.6                   4.5     0.73
+Aurangabad       Cave                     153.2                   4.6     0.68
+Allahabad        Confluence               118.5                   4.5     0.68
+Deoghar          Temple                   384.0                   4.7     0.67
+Lucknow          Monument, Mall            266.0                   4.5     0.66
+
+
+Enter your source city (or type 'exit' to quit): exit
+
 
 
 📂 Project Structure
@@ -75,4 +104,5 @@ Submitted as part of the Internship Technical Assessment 2025.
 If you haven't created the `requirements.txt` file for this folder yet, create it inside `task-4-travel-ranker` and add these two lines:
 
 pandas
+
 geopy
